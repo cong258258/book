@@ -1,0 +1,28 @@
+useradd worker0 worker0_password 3 ¶¡Ç«Çå
+logout
+su worker0 worker0_password
+useradd user0 user0_password 1 Ò¶·¢
+logout
+register user1 user1_password º«Çà
+su user0 user0_password
+logout
+su user1 user1_password
+logout
+su root sjtu
+useradd worker1 worker1_password 3 ÁÖ¾ê
+useradd user2 user2_password 1 ³£¾ıÁ«
+logout
+register user3 user3_password ¹ùÌÎĞÄ
+su user2 user2_password
+logout
+su user3 user3_password
+logout
+su worker1 worker1_password
+useradd user4 user4_password 1 ½ªÆô
+logout
+register user5 user5_password ½¯°®Ö¦
+su user4 user4_password
+logout
+su user5 user5_password
+logout
+exit

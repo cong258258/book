@@ -1,0 +1,6 @@
+logout
+register user user_password Ì·½ø
+su user user_password
+show -ISBN=9787559609304
+show
+exit

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/book/everything.h
+iostream
+-
+fstream
+-
+cstring
+-
+cstdio
+-
+cstdlib
+-
+
+C:/book/main.cpp
+iostream
+-
+fstream
+-
+everything.h
+C:/book/everything.h
+windows.h
+-
+
+C:/book/user_man.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+cstring
+-
+everything.h
+C:/book/everything.h
+
