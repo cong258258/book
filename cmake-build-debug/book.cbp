@@ -85,13 +85,22 @@
 		<Unit filename="C:/book/book.h">
 			<Option target="book"/>
 		</Unit>
+		<Unit filename="C:/book/book_man.cpp">
+			<Option target="book"/>
+		</Unit>
 		<Unit filename="C:/book/cmd.cpp">
 			<Option target="book"/>
 		</Unit>
 		<Unit filename="C:/book/everything.h">
 			<Option target="book"/>
 		</Unit>
+		<Unit filename="C:/book/file_control.cpp">
+			<Option target="book"/>
+		</Unit>
 		<Unit filename="C:/book/main.cpp">
+			<Option target="book"/>
+		</Unit>
+		<Unit filename="C:/book/ui_control.cpp">
 			<Option target="book"/>
 		</Unit>
 		<Unit filename="C:/book/user_man.cpp">

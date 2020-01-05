@@ -122,6 +122,33 @@ book/fast:
 	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/build
 .PHONY : book/fast
 
+book_man.obj: book_man.cpp.obj
+
+.PHONY : book_man.obj
+
+# target to build an object file
+book_man.cpp.obj:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/book_man.cpp.obj
+.PHONY : book_man.cpp.obj
+
+book_man.i: book_man.cpp.i
+
+.PHONY : book_man.i
+
+# target to preprocess a source file
+book_man.cpp.i:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/book_man.cpp.i
+.PHONY : book_man.cpp.i
+
+book_man.s: book_man.cpp.s
+
+.PHONY : book_man.s
+
+# target to generate assembly for a file
+book_man.cpp.s:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/book_man.cpp.s
+.PHONY : book_man.cpp.s
+
 cmd.obj: cmd.cpp.obj
 
 .PHONY : cmd.obj
@@ -149,6 +176,33 @@ cmd.cpp.s:
 	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/cmd.cpp.s
 .PHONY : cmd.cpp.s
 
+file_control.obj: file_control.cpp.obj
+
+.PHONY : file_control.obj
+
+# target to build an object file
+file_control.cpp.obj:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/file_control.cpp.obj
+.PHONY : file_control.cpp.obj
+
+file_control.i: file_control.cpp.i
+
+.PHONY : file_control.i
+
+# target to preprocess a source file
+file_control.cpp.i:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/file_control.cpp.i
+.PHONY : file_control.cpp.i
+
+file_control.s: file_control.cpp.s
+
+.PHONY : file_control.s
+
+# target to generate assembly for a file
+file_control.cpp.s:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/file_control.cpp.s
+.PHONY : file_control.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -175,6 +229,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+ui_control.obj: ui_control.cpp.obj
+
+.PHONY : ui_control.obj
+
+# target to build an object file
+ui_control.cpp.obj:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/ui_control.cpp.obj
+.PHONY : ui_control.cpp.obj
+
+ui_control.i: ui_control.cpp.i
+
+.PHONY : ui_control.i
+
+# target to preprocess a source file
+ui_control.cpp.i:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/ui_control.cpp.i
+.PHONY : ui_control.cpp.i
+
+ui_control.s: ui_control.cpp.s
+
+.PHONY : ui_control.s
+
+# target to generate assembly for a file
+ui_control.cpp.s:
+	$(MAKE) -f CMakeFiles\book.dir\build.make CMakeFiles/book.dir/ui_control.cpp.s
+.PHONY : ui_control.cpp.s
 
 user_man.obj: user_man.cpp.obj
 
@@ -212,12 +293,21 @@ help:
 	@echo ... edit_cache
 	@echo ... book
 	@echo ... rebuild_cache
+	@echo ... book_man.obj
+	@echo ... book_man.i
+	@echo ... book_man.s
 	@echo ... cmd.obj
 	@echo ... cmd.i
 	@echo ... cmd.s
+	@echo ... file_control.obj
+	@echo ... file_control.i
+	@echo ... file_control.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... ui_control.obj
+	@echo ... ui_control.i
+	@echo ... ui_control.s
 	@echo ... user_man.obj
 	@echo ... user_man.i
 	@echo ... user_man.s

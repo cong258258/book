@@ -95,11 +95,53 @@ CMakeFiles/book.dir/user_man.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/book.dir/user_man.cpp.s"
 	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\book\user_man.cpp -o CMakeFiles\book.dir\user_man.cpp.s
 
+CMakeFiles/book.dir/book_man.cpp.obj: CMakeFiles/book.dir/flags.make
+CMakeFiles/book.dir/book_man.cpp.obj: ../book_man.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\book\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/book.dir/book_man.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\book.dir\book_man.cpp.obj -c C:\book\book_man.cpp
+
+CMakeFiles/book.dir/book_man.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/book.dir/book_man.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\book\book_man.cpp > CMakeFiles\book.dir\book_man.cpp.i
+
+CMakeFiles/book.dir/book_man.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/book.dir/book_man.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\book\book_man.cpp -o CMakeFiles\book.dir\book_man.cpp.s
+
+CMakeFiles/book.dir/ui_control.cpp.obj: CMakeFiles/book.dir/flags.make
+CMakeFiles/book.dir/ui_control.cpp.obj: ../ui_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\book\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/book.dir/ui_control.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\book.dir\ui_control.cpp.obj -c C:\book\ui_control.cpp
+
+CMakeFiles/book.dir/ui_control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/book.dir/ui_control.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\book\ui_control.cpp > CMakeFiles\book.dir\ui_control.cpp.i
+
+CMakeFiles/book.dir/ui_control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/book.dir/ui_control.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\book\ui_control.cpp -o CMakeFiles\book.dir\ui_control.cpp.s
+
+CMakeFiles/book.dir/file_control.cpp.obj: CMakeFiles/book.dir/flags.make
+CMakeFiles/book.dir/file_control.cpp.obj: ../file_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\book\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/book.dir/file_control.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\book.dir\file_control.cpp.obj -c C:\book\file_control.cpp
+
+CMakeFiles/book.dir/file_control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/book.dir/file_control.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\book\file_control.cpp > CMakeFiles\book.dir\file_control.cpp.i
+
+CMakeFiles/book.dir/file_control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/book.dir/file_control.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\book\file_control.cpp -o CMakeFiles\book.dir\file_control.cpp.s
+
 # Object files for target book
 book_OBJECTS = \
 "CMakeFiles/book.dir/main.cpp.obj" \
 "CMakeFiles/book.dir/cmd.cpp.obj" \
-"CMakeFiles/book.dir/user_man.cpp.obj"
+"CMakeFiles/book.dir/user_man.cpp.obj" \
+"CMakeFiles/book.dir/book_man.cpp.obj" \
+"CMakeFiles/book.dir/ui_control.cpp.obj" \
+"CMakeFiles/book.dir/file_control.cpp.obj"
 
 # External object files for target book
 book_EXTERNAL_OBJECTS =
@@ -107,11 +149,14 @@ book_EXTERNAL_OBJECTS =
 book.exe: CMakeFiles/book.dir/main.cpp.obj
 book.exe: CMakeFiles/book.dir/cmd.cpp.obj
 book.exe: CMakeFiles/book.dir/user_man.cpp.obj
+book.exe: CMakeFiles/book.dir/book_man.cpp.obj
+book.exe: CMakeFiles/book.dir/ui_control.cpp.obj
+book.exe: CMakeFiles/book.dir/file_control.cpp.obj
 book.exe: CMakeFiles/book.dir/build.make
 book.exe: CMakeFiles/book.dir/linklibs.rsp
 book.exe: CMakeFiles/book.dir/objects1.rsp
 book.exe: CMakeFiles/book.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\book\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable book.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\book\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable book.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\book.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

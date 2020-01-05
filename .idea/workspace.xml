@@ -11,7 +11,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="694c7d31-9c29-4c44-b1d7-140fe37da302" name="Default Changelist" comment="" />
+    <list default="true" id="694c7d31-9c29-4c44-b1d7-140fe37da302" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/book_man.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_control.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.h" beforeDir="false" afterPath="$PROJECT_DIR$/book.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/book.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/book.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/book.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/book.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/book.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/user_table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/user_table.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/user_table_cnt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/user_table_cnt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything.h" beforeDir="false" afterPath="$PROJECT_DIR$/everything.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +44,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VsVOf1m6Sq6uWH9AC8jqUeNA9B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -70,10 +96,25 @@
       <workItem from="1578158723196" duration="31000" />
       <workItem from="1578195920943" duration="2444000" />
       <workItem from="1578198559780" duration="5831000" />
+      <workItem from="1578209722141" duration="930000" />
+      <workItem from="1578210840789" duration="6006000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

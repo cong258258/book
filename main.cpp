@@ -5,38 +5,20 @@
 using namespace std;
 int login_stat = 0;
 void test_user_table();
+int test_commandtxt();
 int main()
 {
     system("chcp 65001 > nul");
     test_user_table();
-    fstream f;
-    f.open("command.txt");
-    char cmd[500];
-    if (f)
+    if (test_commandtxt())
     {
-        login_stat = 7;
-        while (1)
-        {
-            f.get(cmd, 400);
-            int a = do_it(cmd);
-            if (f.get() == EOF || a == 1)
-                break;
-        }
-        f.close();
+        char cmdname[100] = "command.txt";
+        file_control(cmdname);
     }
     else
     {
-        f.close();
         cout << "*****************using ui*****************" << endl;
-        char tmpcmd[30] = "su root sjtu";
-        do_it(tmpcmd);
-        while (1)
-        {
-            cin.get(cmd, 400);
-            int a = do_it(cmd);
-            if (cin.get() == EOF || a == 1)
-                break;
-        }
+        ui_control();
     }
     return 0;
 }
@@ -47,4 +29,19 @@ void test_user_table()
     if(!test_user_table)
         no_user_init();
     test_user_table.close();
+}
+int test_commandtxt()
+{
+    fstream f;
+    f.open("command.txt");
+    if (!f)
+    {
+        f.close();
+        return 0;
+    }
+    else
+    {
+        f.close();
+        return 1;
+    }
 }

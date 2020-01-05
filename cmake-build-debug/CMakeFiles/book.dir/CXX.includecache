@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+C:/book/book.h
+cstring
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+
+C:/book/cmd.cpp
+iostream
+-
+sstream
+-
+cstdio
+-
+cstring
+-
+everything.h
+C:/book/everything.h
+
 C:/book/everything.h
 iostream
 -
@@ -17,26 +39,6 @@ cstdio
 -
 cstdlib
 -
-
-C:/book/main.cpp
-iostream
--
-fstream
--
-everything.h
-C:/book/everything.h
-windows.h
--
-
-C:/book/user_man.cpp
-iostream
--
-fstream
--
-sstream
--
-cstring
--
-everything.h
-C:/book/everything.h
+book.h
+C:/book/book.h
 
