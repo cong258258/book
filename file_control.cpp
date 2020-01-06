@@ -18,6 +18,7 @@ void file_control(char* filename)
     login_stat = 7;
     while (1)
     {
+        strcpy(cmd, "");
         f.get(cmd, 400);
         int a = do_it(cmd);
         if (f.get() == EOF || a == 1)

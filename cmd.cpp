@@ -4,17 +4,6 @@
 #include <cstring>
 #include "everything.h"
 using namespace std;
-class myex
-{
-public:
-    string what = "no type";
-    myex(string s){what = s;}
-};
-void initialize(){throw myex("init");};
-void addBook(){throw myex("add");};
-void borrowBook(){throw myex("borrow");};
-void returnBook(){throw myex("return");};
-void displayBook(){throw myex("dis");};
 extern int login_stat;
 int do_it(char* cmd)
 {
@@ -27,7 +16,8 @@ int do_it(char* cmd)
             cout << "Invalid load no auth" << endl;
         else
         {
-            char filename[500], file_rubbish[500];
+            char filename[500] = "";
+            char file_rubbish[500] = "";
             cmdd >> filename >> file_rubbish;
             if(strlen(file_rubbish))
                 cout << "Invalid too many arguments in load" << endl;

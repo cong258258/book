@@ -5,8 +5,12 @@
 #include "everything.h"
 using namespace std;
 extern int login_stat;
-int user_total = 0;
-int user_del = 0;
+extern int user_total;
+extern int user_del;
+extern int now_select;
+extern int book_total;
+extern double book_sold_money;
+extern double book_import_money;
 fstream user_table_cnt;
 fstream user_table;
 class User
@@ -43,6 +47,22 @@ void no_user_init()
     create_user_table_cnt.seekp(sizeof(int));
     create_user_table_cnt.write(reinterpret_cast<char *>(&user_del), sizeof(int));
     create_user_table_cnt.close();
+    ofstream create_book_table_cnt;
+    create_book_table_cnt.open("book_table_cnt.txt");
+    now_select = -1;
+    book_total = 0;
+    book_sold_money = 0;
+    book_import_money = 0;
+    create_book_table_cnt.seekp(0);
+    create_book_table_cnt.write(reinterpret_cast<char *>(&book_total), sizeof(int));
+    create_user_table_cnt.seekp(sizeof(int));
+    create_book_table_cnt.write(reinterpret_cast<char *>(&book_sold_money), sizeof(double));
+    create_book_table_cnt.seekp(sizeof(double) + sizeof(int));
+    create_book_table_cnt.write(reinterpret_cast<char *>(&book_import_money), sizeof(double));
+    create_book_table_cnt.close();
+    ofstream create_book_table;
+    create_book_table.open("book_table.txt");
+    create_book_table.close();
 }
 int find_user(char* idd)
 {

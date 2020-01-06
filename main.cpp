@@ -4,6 +4,12 @@
 #include <windows.h>
 using namespace std;
 int login_stat = 0;
+int user_total = 0;
+int user_del = 0;
+int now_select = 0;
+int book_total = 0;
+double book_sold_money = 0;
+double book_import_money = 0;
 void test_user_table();
 int test_commandtxt();
 int main()
